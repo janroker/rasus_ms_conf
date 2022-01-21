@@ -1,0 +1,9 @@
+
+
+ssh -i ~/.ssh/rasus -R 80:localhost:8888 localhost.run
+
+sudo git config --add --local core.sshCommand 'ssh -i /home/janroker/.ssh/rasus'
+
+
+
+
